@@ -9,6 +9,10 @@
 
 static int winw = 500, winh = 500;
 
+// The functions `pannic_errno` and `slurp_file` were written by Tsoding (Alexey Kutepov).
+// link to the git repository of where i copied the functions: https://github.com/tsoding/opengl-template
+// Their code was released under the MIT license.
+
 void panic_errno(const char *fmt, ...)
 {
     fprintf(stderr, "ERROR: ");
